@@ -19,8 +19,8 @@ class Animal {
   class Main {
     public static void main(String[] args) {
       Animal myAnimal = new Animal();  // Create a Animal object
-      Animal myPig = new Pig();  // Create a Pig object
-      Animal myDog = new Dog();  // Create a Dog object
+      Pig myPig = new Pig();  // Create a Pig object
+      Dog myDog = new Dog();  // Create a Dog object
       myAnimal.animalSound();
       myPig.animalSound();
       myDog.animalSound();
